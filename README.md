@@ -42,3 +42,19 @@ rolled 1000000d20 with advantage:
     ]
 total = 13820565
 ```
+
+watch
+========================
+
+Calculates the total watch time for a list of strings. Maximum time is 59:59:59.
+
+- `speed`: `<float>x` applies to following video lengths
+- 'videolength': `hh:mm:ss` format, only seconds are required
+
+For example:
+
+```text
+$ watch 1.25x 1:00:00 30 2:30
+50:24
+```
+
